@@ -55,22 +55,58 @@ form {
 }
 
 .softSearchField {
-	height: 25px;
-	width: 350px;
+	height: 30px;
+	width: 400px;
 	font-size: 18px;
 	padding-left: 5px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
 }
 
-.magButton {
+.magBut1ton {
 	background-image: url(../images/magnifying-glass.png);
 	background-size: contain;
-	height: 25px;
-	width: 25px;
+	height: 30px;
+	width: 30px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
 	position: absolute;
 	bottom: 0px;
 	margin-left: 5px;
+}
+
+.searchBar {
+	margin-top: 20px;
+	font-size: 0;
+	font-weight: 600;
+}
+
+.searchBar a {
+	padding: 10px 15px;
+	text-decoration: none;
+	border: 1px solid lightgrey;
+	font-size: 1rem;
+	height: 40px;
+	display: inline-block;
+}
+
+.searchBar a:link {
+	color: black;
+}
+
+.leftSearchButton {
+	border-radius: 4px 0 0 4px;
+}
+
+.rightSearchButton {
+	border-radius: 0 4px 4px 0;
+}
+
+.searchBar p {
+	display: inline-block;
+	padding: 10px 25px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	font-size: 1rem;
+	height: 40px;
 }
